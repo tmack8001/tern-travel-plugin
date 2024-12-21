@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tern Travel Extension",
+  "version": "0.1",
+  "description": "Customize the look and behavior of specific websites.",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "javascript/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.tern.travel/*"],
+      "js": ["javascript/content.js"]
+    }
+  ]
+}
