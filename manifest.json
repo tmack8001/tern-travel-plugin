@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tern Travel Extension",
   "version": "0.1",
-  "description": "Customize the look and behavior of specific websites.",
+  "description": "This plugin for Tern Travel CRM/Itinerary software enhances user experience by summarizing and displaying key trip and task information. It dynamically updates task summaries with counts of tasks due within specific time frames and visually summarizes the number of trips in different statuses, helping users prioritize tasks effectively.",
   "permissions": [
     "activeTab"
   ],

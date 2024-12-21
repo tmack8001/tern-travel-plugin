@@ -3,7 +3,7 @@ set -eux
 cd $(dirname $0)/..
 pwd
 
-readonly packaged_artifact=packaged.zip
+readonly packaged_artifact=./build/packaged.zip
 
 rm -f ${packaged_artifact}
 
